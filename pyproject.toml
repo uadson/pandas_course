@@ -1,18 +1,13 @@
-[tool.poetry]
+[project]
 name = "pandas-course"
 version = "0.1.0"
-description = ""
-authors = ["Uadson Feitosa <uadsonpy@gmail.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.12"
-pandas = "^2.2.2"
-ipykernel = "^6.29.4"
-notebook = "^7.2.0"
-jupyterlab = "^4.2.1"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.13"
+dependencies = [
+    "faker>=33.3.1",
+    "ipykernel>=6.29.5",
+    "jupyterlab>=4.3.4",
+    "notebook>=7.3.2",
+    "pandas>=2.2.3",
+]
